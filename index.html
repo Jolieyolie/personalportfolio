@@ -9,62 +9,73 @@
 
 </head>
 
-<body style="background-color:#F0E9E0">
+<body>
     <header>
-        <spam class="logo">CH</spam> 
-        <navi>
-            <ul class="navigation-links"></ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#home">About</a></li>
-            <li><a href="#home">Skills</a></li>
-            <li><a href="#home">Projects</a></li>
-            <li><a href="#home">FAQ</a></li>
-            <li><a href="#home">Contact</a></li>
-        </navi>
+        <span class="logo">CH</span> 
+        <nav>
+            <ul class="navigation-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
         
     </header>
     <section>
         <img src="images/manga portrait.png" alt="my anime portrait photo" class="circle-image" />
-        <h1 style="color:#89A06B;">Congyi Hu</h1>
+        <h1>Congyi Hu</h1>
         <h4>Aspiring Web Developer</h4>
-        <p style="color: #A47864;">Passionate about creating beautiful and functional websites. Learning modern web
+        <p>Passionate about creating beautiful and functional websites. Learning modern web
             technologies and building projects to grow my skills.</p>
         <a href="https://github.com/Jolieyolie/">View my projects</a>
     </section>
 
 
 
-    <section>
-        <h1 style="color:#89A06B;">About Me</h1>
+    <section id="about-me">
+        <div class=""container></div>
+        <h1>About Me</h1>
         <h4>Hello! I'm Congyi Hu</h4>
         <p>I'm an aspiring web developer based in Kiel, Germany.</p>
     </section>
-    <section>
+    <section id="skills">
         <h3>Skills & Technologies</h3>
+        <div class="flex-container">
+            <div class="card"><h4>HTML & CSS</h4><p class="description-card">Building web pages with clean, semantic HTML and modern CSS. Experience with responsive design and CSS grid.</p></div>
+            <div class="card"><h4>Javascript</h4><p class="description-card">Creating interactive web experiences with Javascript ES6+. Understanding of DOM manipulation and event handling.</p></div>
+            <div class="card"><h4>Responsive Design</h4><p class="description-card">Creating websites that work on all devices using mobile-first design principles and media queries.</p></div>
+            <div class="card"><h4>Web accessibility</h4><p class="description-card">Building inclusive websites following accessibility guidelines and best practices for all users</p></div>
+            <div class="card"><h4>Version Control</h4><p class="description-card">Using Git and Github for version control and collaboration on development projects.</p></div>
+            <div class="card"><h4>Problem Solving</h4><p class="description-card">Debugging code, researching solutions, and thinking logically to solve programming challenges.</p></div>
+        </div>
     </section>
-    <section>
+    <section id="projects">
         <h3>My Projects</h3>
 
     </section>
-    <section>
+    <section id="faq">
         <h3>Freequently Aasked Questions</h3>
-        <details>
-            <summary>What promgramming language do you know?</summary>
-            <p>Python, HTML, CSS, Linux</p>
-        </details>
-        <details>
-            <summary>Are you available for projects?</summary>
-            <p>Yes</p>
-        </details>
-        <details>
-            <summary>How do you approach learning new technologies?</summary>
-            <p>By learning and doing</p>
-        </details>
-        <details>
-            <summary>WHat type of projects interest you the most?</summary>
-            <p>Fun projects</p>
-        </details>
-        
+        <div class="faq-container">
+            <details>
+                <summary>What promgramming language do you know?</summary>
+                <p>Python, HTML, CSS, Linux</p>
+            </details>
+            <details>
+                <summary>Are you available for projects?</summary>
+                <p>Yes</p>
+            </details>
+            <details>
+                <summary>How do you approach learning new technologies?</summary>
+                <p>By learning and doing</p>
+            </details>
+            <details>
+                <summary>WHat type of projects interest you the most?</summary>
+                <p>Fun projects</p>
+            </details>
+        </div>
     </section>
     <section id="contact">
         <h3>Get in touch</h3>
