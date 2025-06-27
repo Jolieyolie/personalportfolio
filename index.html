@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <span class="logo">CH</span> 
+        <span class="logo">CH</span>
         <nav>
             <ul class="navigation-links">
                 <li><a href="#home">Home</a></li>
@@ -22,7 +22,7 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        
+
     </header>
     <section>
         <img src="images/manga portrait.png" alt="my anime portrait photo" class="circle-image" />
@@ -36,7 +36,7 @@
 
 
     <section id="about-me">
-        <div class=""container></div>
+        <div class="" container></div>
         <h1>About Me</h1>
         <h4>Hello! I'm Congyi Hu</h4>
         <p>I'm an aspiring web developer based in Kiel, Germany.</p>
@@ -44,12 +44,36 @@
     <section id="skills">
         <h3>Skills & Technologies</h3>
         <div class="flex-container">
-            <div class="card"><h4>HTML & CSS</h4><p class="description-card">Building web pages with clean, semantic HTML and modern CSS. Experience with responsive design and CSS grid.</p></div>
-            <div class="card"><h4>Javascript</h4><p class="description-card">Creating interactive web experiences with Javascript ES6+. Understanding of DOM manipulation and event handling.</p></div>
-            <div class="card"><h4>Responsive Design</h4><p class="description-card">Creating websites that work on all devices using mobile-first design principles and media queries.</p></div>
-            <div class="card"><h4>Web accessibility</h4><p class="description-card">Building inclusive websites following accessibility guidelines and best practices for all users</p></div>
-            <div class="card"><h4>Version Control</h4><p class="description-card">Using Git and Github for version control and collaboration on development projects.</p></div>
-            <div class="card"><h4>Problem Solving</h4><p class="description-card">Debugging code, researching solutions, and thinking logically to solve programming challenges.</p></div>
+            <div class="card">
+                <h4>HTML & CSS</h4>
+                <p class="description-card">Building web pages with clean, semantic HTML and modern CSS. Experience with
+                    responsive design and CSS grid.</p>
+            </div>
+            <div class="card">
+                <h4>Javascript</h4>
+                <p class="description-card">Creating interactive web experiences with Javascript ES6+. Understanding of
+                    DOM manipulation and event handling.</p>
+            </div>
+            <div class="card">
+                <h4>Responsive Design</h4>
+                <p class="description-card">Creating websites that work on all devices using mobile-first design
+                    principles and media queries.</p>
+            </div>
+            <div class="card">
+                <h4>Web accessibility</h4>
+                <p class="description-card">Building inclusive websites following accessibility guidelines and best
+                    practices for all users</p>
+            </div>
+            <div class="card">
+                <h4>Version Control</h4>
+                <p class="description-card">Using Git and Github for version control and collaboration on development
+                    projects.</p>
+            </div>
+            <div class="card">
+                <h4>Problem Solving</h4>
+                <p class="description-card">Debugging code, researching solutions, and thinking logically to solve
+                    programming challenges.</p>
+            </div>
         </div>
     </section>
     <section id="projects">
@@ -88,19 +112,34 @@
             <input type="text" value="" name="" id="subject">
             <label for="subject">Message *</label>
             <textarea id="message" required></textarea>
+            <input type="submit" value="Submit" class="submit_button">
+
 
         </form>
     </section>
 </body>
 <footer>
-    <h4>Contact Information</h4>
-    <p>congyi.h.f@gmail.com</p>
-    <p>+49 176 8779 3994</p>
-    <p>Kiel, Germany</p>
-    <h4>Legal</h4>
-    <p>Impressum</p>
-    <p>Privacy Policy</p>
-    <p>2025 Congyi Hu. All rights reserved.</p>
+    <div class="contact_legal">
+        <div class="contact">
+            <h4>Contact Information</h4>
+            <div class="contact_content">
+                <p>📧congyi.h.f@gmail.com</p>
+                <p>📞+49 176 8779 3994</p>
+                <p>📍Kiel, Germany</p>
+            </div>
+        </div>
+        <div class=" legal">
+            <h4>Legal</h4>
+            <div class="contact_content">
+                <p>Impressum</p>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+    </div>
+    <hr class="hr_style">
+    <div class="rights">
+        <p>2025 Congyi Hu. All rights reserved.</p>
+    </div>
 </footer>
 
 </html>
